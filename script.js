@@ -20,17 +20,17 @@ function fun(b,a){
   choice.textContent="Your choice is "+a+" &  Computer choice is "+b;
   if(a==b){
     result.textContent="Tie!!!"}
-  else if(a=="rock" && b=="paper"){
+  else if(b=="rock" && a=="paper"){
     result.textContent="Congrats!!, you won"
     userscore++;
     score.textContent="User = "+userscore+" : Computer = "+compscore;
   }
-  else if(a=="paper" && b=="scissors"){
+  else if(b=="paper" && a=="scissors"){
     result.textContent="Congrats!!, you won"
     userscore++;
     score.textContent="User = "+userscore+" : Computer = "+compscore;
   }
-  else if(a=="scissors" && b=="rock"){
+  else if(b=="scissors" && a=="rock"){
     result.textContent="Congrats!!, You won"
     userscore++;
     score.textContent="User = "+userscore+" : Computer = "+compscore;
