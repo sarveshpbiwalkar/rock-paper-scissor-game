@@ -10,7 +10,7 @@ var compscore=0;
 inword.forEach((userword) => {
     userword.addEventListener("click",()=>{
     const userin=userword.id;
-    const words=["rock","paper","scissor"];
+    const words=["rock","paper","scissors"];
     const word=words[Math.floor(Math.random()* 3)];
     fun(word,userin);
   });
