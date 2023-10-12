@@ -17,7 +17,7 @@ inword.forEach((userword) => {
 });
 score.textContent="User = "+userscore+" : Computer = "+compscore;
 function fun(a,b){
-  choice.textContent="Your choice is "+a+" &  Computer choice is "+b;
+  choice.textContent="Your choice is "+b+" &  Computer choice is "+a;
   if(a==b){
     result.textContent="Tie!!!"}
   else if(b=="rock" && a=="paper"){
